@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D36B7C35-35E7-44B3-9142-3AF57FD28741}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Concentrator.Entities</RootNamespace>
+    <AssemblyName>Concentrator.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalOrderProduct.cs" />
+    <Compile Include="AssortmentStatu.cs" />
+    <Compile Include="AttributeMatchStore.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="BrandMedia.cs" />
+    <Compile Include="BrandVendor.cs" />
+    <Compile Include="ClientMappingTNT.cs" />
+    <Compile Include="CommunicatorMessage.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Connector.cs" />
+    <Compile Include="ConnectorLanguage.cs" />
+    <Compile Include="ConnectorPaymentProvider.cs" />
+    <Compile Include="ConnectorProductStatu.cs" />
+    <Compile Include="ConnectorPublication.cs" />
+    <Compile Include="ConnectorPublicationRule.cs" />
+    <Compile Include="ConnectorRelation.cs" />
+    <Compile Include="ConnectorRuleValue.cs" />
+    <Compile Include="ConnectorSchedule.cs" />
+    <Compile Include="ConnectorSetting.cs" />
+    <Compile Include="ConnectorSystem.cs" />
+    <Compile Include="Content.cs" />
+    <Compile Include="ContentAttribute.cs" />
+    <Compile Include="ContentCalculatedPrice.cs" />
+    <Compile Include="ContentFlat.cs" />
+    <Compile Include="ContentLedger.cs" />
+    <Compile Include="ContentPrice.cs" />
+    <Compile Include="ContentPriceCalculation.cs" />
+    <Compile Include="ContentProduct.cs" />
+    <Compile Include="ContentProductGroup.cs" />
+    <Compile Include="ContentProductMatch.cs" />
+    <Compile Include="ContentPublicationRule.cs" />
+    <Compile Include="ContentStock.cs" />
+    <Compile Include="ContentVendorSetting.cs" />
+    <Compile Include="CrossLedgerclass.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DatcolLink.cs" />
+    <Compile Include="EdiCommunication.cs" />
+    <Compile Include="EdiFieldMapping.cs" />
+    <Compile Include="EdiOrder.cs" />
+    <Compile Include="EdiOrderLedger.cs" />
+    <Compile Include="EdiOrderLine.cs" />
+    <Compile Include="EdiOrderListener.cs" />
+    <Compile Include="EdiOrderPost.cs" />
+    <Compile Include="EdiOrderResponse.cs" />
+    <Compile Include="EdiOrderResponseLine.cs" />
+    <Compile Include="EdiOrderType.cs" />
+    <Compile Include="EdiValidate.cs" />
+    <Compile Include="EdiVendor.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventType.cs" />
+    <Compile Include="ExcludeProduct.cs" />
+    <Compile Include="ExportTemplate.cs" />
+    <Compile Include="ExportTemplateColumn.cs" />
+    <Compile Include="Faq.cs" />
+    <Compile Include="FaqProduct.cs" />
+    <Compile Include="FaqTranslation.cs" />
+    <Compile Include="FunctionalityRole.cs" />
+    <Compile Include="ImageStore.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="LanguageCode.cs" />
+    <Compile Include="MagentoPageLayout.cs" />
+    <Compile Include="MagentoProductGroupSetting.cs" />
+    <Compile Include="ManagementGroup.cs" />
+    <Compile Include="ManagementLabel.cs" />
+    <Compile Include="ManagementModule.cs" />
+    <Compile Include="ManagementModuleItem.cs" />
+    <Compile Include="ManagementPage.cs" />
+    <Compile Include="MasterGroupMapping.cs" />
+    <Compile Include="MasterGroupMappingCustomLabel.cs" />
+    <Compile Include="MasterGroupMappingDescription.cs" />
+    <Compile Include="MasterGroupMappingLabel.cs" />
+    <Compile Include="MasterGroupMappingLanguage.cs" />
+    <Compile Include="MasterGroupMappingMedia.cs" />
+    <Compile Include="MasterGroupMappingProduct.cs" />
+    <Compile Include="MasterGroupMappingProductVendor.cs" />
+    <Compile Include="MasterGroupMappingRelatedAttribute.cs" />
+    <Compile Include="MasterGroupMappingSetting.cs" />
+    <Compile Include="MasterGroupMappingSettingOption.cs" />
+    <Compile Include="MasterGroupMappingSettingTemplate.cs" />
+    <Compile Include="MasterGroupMappingSettingValue.cs" />
+    <Compile Include="MediaType.cs" />
+    <Compile Include="MissingContent.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderItemFullfilmentInformation.cs" />
+    <Compile Include="OrderLedger.cs" />
+    <Compile Include="OrderLedgerStatu.cs" />
+    <Compile Include="orderledgertempatdatcol.cs" />
+    <Compile Include="OrderLine.cs" />
+    <Compile Include="OrderLineAppliedDiscountRule.cs" />
+    <Compile Include="OrderResponse.cs" />
+    <Compile Include="OrderResponseLine.cs" />
+    <Compile Include="OrderRule.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="Outbound.cs" />
+    <Compile Include="PaymentMethod.cs" />
+    <Compile Include="PaymentMethodDescription.cs" />
+    <Compile Include="PaymentProvider.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Portal.cs" />
+    <Compile Include="PortalNotification.cs" />
+    <Compile Include="Portlet.cs" />
+    <Compile Include="PreferredConnectorVendor.cs" />
+    <Compile Include="PriceCorrection.cs" />
+    <Compile Include="PriceSet.cs" />
+    <Compile Include="PriceTag.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductAttributeDescription.cs" />
+    <Compile Include="ProductAttributeGroupMetaData.cs" />
+    <Compile Include="ProductAttributeGroupName.cs" />
+    <Compile Include="ProductAttributeMatch.cs" />
+    <Compile Include="ProductAttributeMetaData.cs" />
+    <Compile Include="ProductAttributeName.cs" />
+    <Compile Include="ProductAttributeOption.cs" />
+    <Compile Include="ProductAttributeValue.cs" />
+    <Compile Include="ProductAttributeValueConnectorValueGroup.cs" />
+    <Compile Include="ProductAttributeValueGroup.cs" />
+    <Compile Include="ProductAttributeValueGroupName.cs" />
+    <Compile Include="ProductAttributeValueLabel.cs" />
+    <Compile Include="ProductBarcode.cs" />
+    <Compile Include="ProductCompare.cs" />
+    <Compile Include="ProductCompareSource.cs" />
+    <Compile Include="ProductCompetitor.cs" />
+    <Compile Include="ProductCompetitorLedger.cs" />
+    <Compile Include="ProductCompetitorMapping.cs" />
+    <Compile Include="ProductCompetitorPrice.cs" />
+    <Compile Include="ProductControl.cs" />
+    <Compile Include="ProductDescription.cs" />
+    <Compile Include="ProductGroup.cs" />
+    <Compile Include="ProductGroupConnectorVendor.cs" />
+    <Compile Include="ProductGroupContentVendor.cs" />
+    <Compile Include="ProductGroupLanguage.cs" />
+    <Compile Include="ProductGroupMapping.cs" />
+    <Compile Include="ProductGroupMappingCustomLabel.cs" />
+    <Compile Include="ProductGroupMappingDescription.cs" />
+    <Compile Include="ProductGroupPublish.cs" />
+    <Compile Include="ProductGroupVendor.cs" />
+    <Compile Include="ProductImage.cs" />
+    <Compile Include="ProductMatch.cs" />
+    <Compile Include="ProductMedia.cs" />
+    <Compile Include="ProductMediaTumbnail.cs" />
+    <Compile Include="productmedia_backup.cs" />
+    <Compile Include="ProductPriceSet.cs" />
+    <Compile Include="ProductReview.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PushProduct.cs" />
+    <Compile Include="RefundQueue.cs" />
+    <Compile Include="RefundQueueHistory.cs" />
+    <Compile Include="RelatedProduct.cs" />
+    <Compile Include="RelatedProductType.cs" />
+    <Compile Include="RelatedProductTypeMapping.cs" />
+    <Compile Include="RelatedProductTypeMappingData.cs" />
+    <Compile Include="ReviewSource.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="SapProductGroupMapping.cs" />
+    <Compile Include="SapProductGroupNumber.cs" />
+    <Compile Include="ScanData.cs" />
+    <Compile Include="ScanProvider.cs" />
+    <Compile Include="SearchContent.cs" />
+    <Compile Include="SeoText.cs" />
+    <Compile Include="SlurpQueue.cs" />
+    <Compile Include="SlurpSchedule.cs" />
+    <Compile Include="Stock.cs" />
+    <Compile Include="ThumbnailGenerator.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserDownload.cs" />
+    <Compile Include="UserLanguage.cs" />
+    <Compile Include="UserPlugin.cs" />
+    <Compile Include="UserPortal.cs" />
+    <Compile Include="UserPortalPortlet.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="UserState.cs" />
+    <Compile Include="Vendor.cs" />
+    <Compile Include="VendorAccruel.cs" />
+    <Compile Include="VendorAssortment.cs" />
+    <Compile Include="VendorFreeGood.cs" />
+    <Compile Include="VendorMapping.cs" />
+    <Compile Include="VendorPrice.cs" />
+    <Compile Include="VendorPriceCalculation.cs" />
+    <Compile Include="VendorPriceRule.cs" />
+    <Compile Include="VendorProductMatch.cs" />
+    <Compile Include="VendorProductStatu.cs" />
+    <Compile Include="VendorSetting.cs" />
+    <Compile Include="VendorStock.cs" />
+    <Compile Include="VendorStockLedger.cs" />
+    <Compile Include="VendorStockType.cs" />
+    <Compile Include="VendorTranslation.cs" />
+    <Compile Include="VendorTranslationType.cs" />
+    <Compile Include="WebToPrintBinding.cs" />
+    <Compile Include="WebToPrintBindingField.cs" />
+    <Compile Include="WebToPrintComposite.cs" />
+    <Compile Include="WebToPrintDocument.cs" />
+    <Compile Include="WebToPrintLayout.cs" />
+    <Compile Include="WebToPrintPage.cs" />
+    <Compile Include="WebToPrintProject.cs" />
+    <Compile Include="WebToPrintQueue.cs" />
+    <Compile Include="WehkampMessage.cs" />
+    <Compile Include="ZipCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

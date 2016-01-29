@@ -1,0 +1,1 @@
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\CoolInvest.BusinessLogic\obj\Debug\CoolInvest.DataAccessServiceLayer.csprojResolveAssemblyReference.cache

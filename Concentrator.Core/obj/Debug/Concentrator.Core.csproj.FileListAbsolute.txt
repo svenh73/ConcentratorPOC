@@ -1,0 +1,4 @@
+C:\Projecten\Concentrator3\Concentrator.Core\bin\Debug\Concentrator.Core.dll
+C:\Projecten\Concentrator3\Concentrator.Core\bin\Debug\Concentrator.Core.pdb
+C:\Projecten\Concentrator3\Concentrator.Core\obj\Debug\Concentrator.Core.dll
+C:\Projecten\Concentrator3\Concentrator.Core\obj\Debug\Concentrator.Core.pdb

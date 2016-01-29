@@ -1,0 +1,3 @@
+C:\Projecten\Concentrator3\Concentrator.ServiceBusAccessLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.csprojResolveAssemblyReference.cache
+C:\Projecten\Concentrator3\Concentrator.ServiceBusAccessLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.ErrorMessages.resources
+C:\Projecten\Concentrator3\Concentrator.ServiceBusAccessLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.csproj.GenerateResource.Cache

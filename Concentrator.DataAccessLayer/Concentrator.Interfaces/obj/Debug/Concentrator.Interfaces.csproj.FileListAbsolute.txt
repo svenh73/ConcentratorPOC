@@ -1,0 +1,4 @@
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.Interfaces.dll
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.Interfaces.pdb
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\obj\Debug\Concentrator.Interfaces.dll
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\obj\Debug\Concentrator.Interfaces.pdb

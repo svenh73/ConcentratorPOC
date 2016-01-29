@@ -1,0 +1,4 @@
+C:\Projecten\Concentrator3\Concentrator.Entities\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\Concentrator3\Concentrator.Entities\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\Concentrator3\Concentrator.Entities\obj\Debug\Concentrator.Entities.dll
+C:\Projecten\Concentrator3\Concentrator.Entities\obj\Debug\Concentrator.Entities.pdb

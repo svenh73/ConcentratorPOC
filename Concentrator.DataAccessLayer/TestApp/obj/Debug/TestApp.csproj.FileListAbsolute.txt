@@ -1,0 +1,4 @@
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\TestApp\bin\Debug\TestApp.dll
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\TestApp\bin\Debug\TestApp.pdb
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\TestApp\obj\Debug\TestApp.dll
+C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\TestApp\obj\Debug\TestApp.pdb
