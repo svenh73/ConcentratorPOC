@@ -1,7 +1,0 @@
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.SharedObjects.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.SharedObjects.pdb
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.Entities.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\bin\Debug\Concentrator.Entities.pdb
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\obj\Debug\Concentrator.SharedObjects.csprojResolveAssemblyReference.cache
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\obj\Debug\Concentrator.SharedObjects.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Interfaces\obj\Debug\Concentrator.SharedObjects.pdb

@@ -1,0 +1,16 @@
+C:\Projecten\Concentrator3\Concentrator.ServiceBus\Concentrator.ServiceBus\obj\Debug\Concentrator.Processes.csprojResolveAssemblyReference.cache
+C:\Projecten\Concentrator3\Concentrator.Processes\obj\Debug\Concentrator.Processes.csprojResolveAssemblyReference.cache
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.Processes.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.Processes.pdb
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.SharedObjects.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Microsoft.ServiceBus.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Ninject.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.SharedObjects.pdb
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Microsoft.ServiceBus.xml
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Ninject.xml
+C:\Projecten\Concentrator3\Concentrator.Processes\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\Concentrator3\Concentrator.Processes\obj\Debug\Concentrator.Processes.dll
+C:\Projecten\Concentrator3\Concentrator.Processes\obj\Debug\Concentrator.Processes.pdb

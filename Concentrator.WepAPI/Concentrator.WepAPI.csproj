@@ -73,7 +73,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProductController.cs" />
@@ -89,7 +91,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Concentrator.DataAccessLayer\Concentrator.Interfaces\Concentrator.SharedObjects.csproj">
+    <ProjectReference Include="..\Concentrator.SharedObjects\Concentrator.SharedObjects.csproj">
       <Project>{c8b20b51-e16f-421f-87a4-84d0a6ce2391}</Project>
       <Name>Concentrator.SharedObjects</Name>
     </ProjectReference>

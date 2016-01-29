@@ -1,0 +1,17 @@
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\obj\Debug\Concentrator.ServiceBusLayer.csprojResolveAssemblyReference.cache
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.ErrorMessages.resources
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\obj\Debug\Concentrator.ServiceBusLayer.csproj.GenerateResource.Cache
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.ServiceBusAccessLayer.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.ServiceBusAccessLayer.pdb
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.SharedObjects.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Microsoft.ServiceBus.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Ninject.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Concentrator.SharedObjects.pdb
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Microsoft.ServiceBus.xml
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\bin\Debug\Ninject.xml
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.dll
+C:\Projecten\Concentrator3\Concentrator.ServiceBusLayer\obj\Debug\Concentrator.ServiceBusAccessLayer.pdb

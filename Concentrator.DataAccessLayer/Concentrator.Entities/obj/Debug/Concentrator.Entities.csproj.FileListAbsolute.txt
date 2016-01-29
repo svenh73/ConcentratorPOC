@@ -1,9 +1,0 @@
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\Concentrator.Entities.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\Concentrator.Entities.pdb
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\EntityFramework.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\EntityFramework.SqlServer.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\EntityFramework.xml
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\bin\Debug\EntityFramework.SqlServer.xml
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\obj\Debug\Concentrator.Entities.dll
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\obj\Debug\Concentrator.Entities.pdb
-C:\Projecten\Concentrator3\Concentrator.DataAccessLayer\Concentrator.Entities\obj\Debug\Concentrator.Entities.csprojResolveAssemblyReference.cache

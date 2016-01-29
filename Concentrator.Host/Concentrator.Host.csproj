@@ -78,8 +78,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Concentrator.DataAccessLayer\Concentrator.Interfaces\Concentrator.SharedObjects.csproj">
-      <Project>{c8b20b51-e16f-421f-87a4-84d0a6ce2391}</Project>
+    <ProjectReference Include="..\Concentrator.SharedObjects\Concentrator.SharedObjects.csproj">
+      <Project>{C8B20B51-E16F-421F-87A4-84D0A6CE2391}</Project>
       <Name>Concentrator.SharedObjects</Name>
     </ProjectReference>
   </ItemGroup>
