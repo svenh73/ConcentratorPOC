@@ -32,35 +32,30 @@ namespace Concentrator.BusinessLayer
 
     public ProductDto GetProduct(ICallerContext context, int id)
     {
-      var storeservice = ServiceLocator.Current.GetInstance<IProductStoreService>();
-      var products = storeservice.GetItems(new[] {id});
+      var products = StoreService.GetItems(new[] {id});
       return products[0];
     }
 
     public void UpdateProduct(ICallerContext context, ProductDto product)
     {
-      var storeservice = ServiceLocator.Current.GetInstance<IProductStoreService>();
-      storeservice.Update(product);
+      StoreService.Update(product);
 
       LogService.LogInformation("");
     }
 
     public void DeleteProduct(ICallerContext context, int productid)
     {
-      var storeservice = ServiceLocator.Current.GetInstance<IProductStoreService>();
-      storeservice.Delete(new ProductDto {ProductID = productid});
+      StoreService.Delete(new ProductDto { ProductID = productid });
     }
 
     public void SendToBus(ICallerContext context, ProductDto product)
     {
-      var buservice = ServiceLocator.Current.GetInstance<IProductBusService>();
-      buservice.Send(context,product);
+      BusService.Send(context,product);
     }
 
     public ProductDto ReceiveFromBus(ICallerContext context)
     {
-      var buservice = ServiceLocator.Current.GetInstance<IProductBusService>();
-      var envelop = buservice.Receive(context,FuncValidate);
+      var envelop = BusService.Receive(context,FuncValidate);
       return envelop.Object;
     }
 
