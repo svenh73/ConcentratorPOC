@@ -1,10 +1,10 @@
 ﻿using System.Data.Entity;
-using Concentrator.DataLayer;
+using Concentrator.Entities;
 using CoolInvest.Entities;
 
 namespace CoolInvest.DataAccessLayer
 {
-  public class CoolInvestDataContext : ConcentratorDataContext
+  public class CoolInvestDataContext : CNxtContext
   {
     public new DbSet<CoolInvestProduct> Products { get; set; }
 

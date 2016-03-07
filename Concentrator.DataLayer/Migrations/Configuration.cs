@@ -8,7 +8,7 @@ namespace Concentrator.DataLayer.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-  public class Configuration : DbMigrationsConfiguration<CNextContext>
+  public class Configuration : DbMigrationsConfiguration<CNxtContext>
     {
         public Configuration()
         {
@@ -16,7 +16,7 @@ namespace Concentrator.DataLayer.Migrations
         }
 
       // Initiele dataseed by creatie database
-        protected override void Seed(CNextContext context)
+        protected override void Seed(CNxtContext context)
         {
           var settings = new List<Setting>();
           settings.Add(new Setting()

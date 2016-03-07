@@ -13,7 +13,7 @@ namespace TestApp
     {
       
       
-      CNextContext context = new CNextContext();
+      CNxtContext context = new CNxtContext();
       var x = context.Settings.Find();
     }
   }

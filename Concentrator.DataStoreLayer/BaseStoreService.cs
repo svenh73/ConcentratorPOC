@@ -8,11 +8,11 @@ namespace Concentrator.DataAccessServiceLayer
 {
   public class BaseStoreService<T> where T : BaseDto
   {
-    public BaseStoreService(CNextContext context = null)
+    public BaseStoreService(CNxtContext context = null)
     {
-      DataContext = context ?? new CNextContext();
+      DataContext = context ?? new CNxtContext();
     }
 
-    protected CNextContext DataContext { get; set; }
+    protected CNxtContext DataContext { get; set; }
   }
 }

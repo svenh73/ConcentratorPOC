@@ -53,21 +53,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Concentrator.Entities\Concentrator.Entities.csproj">
-      <Project>{F0CD8806-A101-4897-ACCA-A4153A948B1A}</Project>
-      <Name>Concentrator.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\CoolInvest.Entities\CoolInvest.Entities.csproj">
-      <Project>{adc35bd1-76b3-45f3-959e-936a2a236f33}</Project>
-      <Name>CoolInvest.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Concentrator.DataAccessLayer\Concentrator.DataLayer.csproj">
+    <ProjectReference Include="..\Concentrator.DataLayer\Concentrator.DataLayer.csproj">
       <Project>{e8fa645d-6923-4bc5-840d-55d00b93aad4}</Project>
       <Name>Concentrator.DataLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Concentrator.Interfaces\Concentrator.SharedObjects.csproj">
+    <ProjectReference Include="..\Concentrator.Entities\Concentrator.Entities.csproj">
+      <Project>{d36b7c35-35e7-44b3-9142-3af57fd28741}</Project>
+      <Name>Concentrator.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Concentrator.SharedObjects\Concentrator.SharedObjects.csproj">
       <Project>{c8b20b51-e16f-421f-87a4-84d0a6ce2391}</Project>
       <Name>Concentrator.SharedObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoolInvest.Entities\CoolInvest.Entities.csproj">
+      <Project>{adc35bd1-76b3-45f3-959e-936a2a236f33}</Project>
+      <Name>CoolInvest.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

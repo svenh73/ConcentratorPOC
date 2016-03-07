@@ -20,8 +20,6 @@ C:\Projecten\Concentrator3\Concentrator.Host\obj\Debug\Concentrator.Host.csprojR
 C:\Projecten\Concentrator3\Concentrator.Host\obj\Debug\Concentrator.Host.exe
 C:\Projecten\Concentrator3\Concentrator.Host\obj\Debug\Concentrator.Host.pdb
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Concentrator.Host.exe.config
-C:\Projecten\ConcentratorPOC\Concentrator.Host\obj\Debug\Concentrator.Host.exe
-C:\Projecten\ConcentratorPOC\Concentrator.Host\obj\Debug\Concentrator.Host.pdb
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Concentrator.Host.exe
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Concentrator.Host.pdb
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Concentrator.SharedObjects.dll
@@ -40,3 +38,5 @@ C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Ninject.Web.Common.pdb
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Ninject.Web.Common.xml
 C:\Projecten\ConcentratorPOC\Concentrator.Host\bin\Debug\Concentrator.Entities.pdb
 C:\Projecten\ConcentratorPOC\Concentrator.Host\obj\Debug\Concentrator.Host.csprojResolveAssemblyReference.cache
+C:\Projecten\ConcentratorPOC\Concentrator.Host\obj\Debug\Concentrator.Host.exe
+C:\Projecten\ConcentratorPOC\Concentrator.Host\obj\Debug\Concentrator.Host.pdb
