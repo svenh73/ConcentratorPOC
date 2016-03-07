@@ -11,41 +11,41 @@ namespace Concentrator.DataAccessServiceLayer
   {
     public int[] GetIds()
     {
-      return ConcentratorDataContext.Brands.Where(p => p.Name != null).Select(p => p.BrandID).ToArray();
+      return DataContext.Brands.Where(p => p.Name != null).Select(p => p.Id).ToArray();
     }
 
     public List<BrandDto> GetItems(int[] ids)
     {
-      return ConcentratorDataContext.Brands.Where(p => ids == null || ids.Contains(p.BrandID)).Select(p => Mapper.Map<BrandDto>(p)).ToList();
+      return DataContext.Brands.Where(p => ids == null || ids.Contains(p.Id)).Select(p => Mapper.Map<BrandDto>(p)).ToList();
     }
 
     public int Insert(BrandDto brand)
     {
       var newbrand = Mapper.Map<Brand>(brand);
 
-      ConcentratorDataContext.Brands.Attach(newbrand);
-      ConcentratorDataContext.SaveChanges();
+      DataContext.Brands.Attach(newbrand);
+      DataContext.SaveChanges();
 
       return brand.BrandID;
     }
 
     public bool Update(BrandDto brand)
     {
-      var orgbrand = ConcentratorDataContext.Brands.FirstOrDefault(p => brand.BrandID == p.BrandID);
+      var orgbrand = DataContext.Brands.FirstOrDefault(p => brand.BrandID == p.Id);
 
       Mapper.Map(brand, orgbrand);
-      ConcentratorDataContext.SaveChanges();
+      DataContext.SaveChanges();
 
-      return ConcentratorDataContext.SaveChanges() > 0;
+      return DataContext.SaveChanges() > 0;
     }
 
     public bool Delete(BrandDto brand)
     {
-      var orgbrand = ConcentratorDataContext.Brands.FirstOrDefault(p => p.BrandID == brand.BrandID);
+      var orgbrand = DataContext.Brands.FirstOrDefault(p => p.Id == brand.BrandID);
       if (orgbrand != null)
       {
-        ConcentratorDataContext.Brands.Remove(orgbrand);
-        return ConcentratorDataContext.SaveChanges() > 0;
+        DataContext.Brands.Remove(orgbrand);
+        return DataContext.SaveChanges() > 0;
       }
       return false;
     }

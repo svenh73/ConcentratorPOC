@@ -9,9 +9,9 @@ namespace Concentrator.DataAccessServiceLayer
   public class SettingStoreService : BaseStoreService<SettingDto>, ISettingStoreService
   {
     
-    public List<Config> GetGlobalSettings()
+    public List<Setting> GetGlobalSettings()
     {
-      return ConcentratorDataContext.Configs.ToList();
+      return null; //return DataContext.Settings.Where(p => p.SettingValues.Any(x => x.Channel)).ToList();
     }
 
     public int[] GetIds()

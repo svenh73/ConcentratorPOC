@@ -12,3 +12,10 @@ C:\Projecten\Concentrator3\Concentrator.SharedObjects\bin\Debug\Concentrator.Sha
 C:\Projecten\Concentrator3\Concentrator.SharedObjects\bin\Debug\Concentrator.SharedObjects.pdb
 C:\Projecten\Concentrator3\Concentrator.SharedObjects\bin\Debug\Concentrator.Entities.dll
 C:\Projecten\Concentrator3\Concentrator.SharedObjects\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\bin\Debug\Concentrator.SharedObjects.dll
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\bin\Debug\Concentrator.SharedObjects.pdb
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\obj\Debug\Concentrator.SharedObjects.csprojResolveAssemblyReference.cache
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\obj\Debug\Concentrator.SharedObjects.dll
+C:\Projecten\ConcentratorPOC\Concentrator.SharedObjects\obj\Debug\Concentrator.SharedObjects.pdb

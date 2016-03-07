@@ -11,13 +11,13 @@ namespace Concentrator.DataAccessServiceLayer
   {
     public virtual int[] GetIds()
     {
-      return ConcentratorDataContext.Products.Where(p => !p.IsBlocked && p.Visible).Select(p => p.ProductID).ToArray();
+      return DataContext.Products.Select(p => p.Id).ToArray();
     }
 
     public virtual List<ProductDto> GetItems(int[] ids)
     {
       return
-        ConcentratorDataContext.Products.Where(p => ids == null || ids.Contains(p.ProductID))
+        DataContext.Products.Where(p => ids == null || ids.Contains(p.Id))
           .Select(p => Mapper.Map<ProductDto>(p))
           .ToList();
     }
@@ -26,29 +26,29 @@ namespace Concentrator.DataAccessServiceLayer
     {
       var product = new Product();
       Mapper.Map(item, product);
-      ConcentratorDataContext.Products.Attach(product);
-      ConcentratorDataContext.SaveChanges();
+      DataContext.Products.Attach(product);
+      DataContext.SaveChanges();
 
-      return product.ProductID;
+      return product.Id;
     }
 
     public virtual bool Update(ProductDto item)
     {
-      var product = ConcentratorDataContext.Products.FirstOrDefault(p => item.ProductID == p.ProductID);
+      var product = DataContext.Products.FirstOrDefault(p => item.ProductID == p.Id);
 
       Mapper.Map(item, product);
-      ConcentratorDataContext.SaveChanges();
+      DataContext.SaveChanges();
 
-      return ConcentratorDataContext.SaveChanges() > 0;
+      return DataContext.SaveChanges() > 0;
     }
 
     public virtual bool Delete(ProductDto item)
     {
-      var product = ConcentratorDataContext.Products.FirstOrDefault(p => p.ProductID == item.ProductID);
+      var product = DataContext.Products.FirstOrDefault(p => p.Id == item.ProductID);
       if (product != null)
       {
-        ConcentratorDataContext.Products.Remove(product);
-        return ConcentratorDataContext.SaveChanges() > 0;
+        DataContext.Products.Remove(product);
+        return DataContext.SaveChanges() > 0;
       }
       return false;
     }

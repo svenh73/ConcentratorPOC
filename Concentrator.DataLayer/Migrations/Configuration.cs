@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Concentrator.Entities;
 
 namespace Concentrator.DataLayer.Migrations
@@ -7,7 +8,7 @@ namespace Concentrator.DataLayer.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    public class Configuration : DbMigrationsConfiguration<ConcentratorDataContext>
+  public class Configuration : DbMigrationsConfiguration<CNextContext>
     {
         public Configuration()
         {
@@ -15,14 +16,16 @@ namespace Concentrator.DataLayer.Migrations
         }
 
       // Initiele dataseed by creatie database
-        protected override void Seed(ConcentratorDataContext context)
+        protected override void Seed(CNextContext context)
         {
-
-          context.Configs.AddOrUpdate(x => x.Name,
-            new Config { Name = "Test setting 1", Value = "1"},
-            new Config { Name = "Test setting 2", Value = "2" },
-            new Config { Name = "Test setting 3", Value = "3"}
-          );
+          var settings = new List<Setting>();
+          settings.Add(new Setting()
+          {
+            Name = "Test",
+            DataType = "String"
+          });
+          
+          //context.Settings.AddOrUpdate(p => p.Name, settings.ToArray());
         }
     }
 }

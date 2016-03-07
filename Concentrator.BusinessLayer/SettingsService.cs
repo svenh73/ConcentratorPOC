@@ -23,7 +23,7 @@ namespace Concentrator.BusinessLayer
           _settings = StoreService.GetGlobalSettings().Select(p => new SettingDto
           {
             Name = p.Name,
-            Value = p.Value
+            //Value = p.Value
           }).ToList();
         }
         return _settings;

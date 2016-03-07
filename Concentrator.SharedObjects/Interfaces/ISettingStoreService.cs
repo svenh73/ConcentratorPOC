@@ -6,6 +6,6 @@ namespace Concentrator.SharedObjects.Interfaces
 {
   public interface ISettingStoreService : IBaseStoreService, ICrud<SettingDto>
   {
-    List<Config> GetGlobalSettings();
+    List<Setting> GetGlobalSettings();
   }
 }

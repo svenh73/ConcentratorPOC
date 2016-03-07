@@ -9,7 +9,7 @@ namespace Concentrator.DataLayer
     public override void Up()
     {
 
-      AddColumn("dbo.Config", "Test4", c => c.String());
+      AddColumn("dbo.Setting", "Test4", c => c.String());
 
       Sql("update config set name='b' where name='a';");
     }

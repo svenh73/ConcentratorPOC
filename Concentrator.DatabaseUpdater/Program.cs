@@ -1,6 +1,7 @@
 ﻿
 using System.Linq;
 using Concentrator.DataLayer;
+using Concentrator.Entities;
 
 namespace DatabaseUpdater
 {
@@ -8,9 +9,9 @@ namespace DatabaseUpdater
   {
     static void Main(string[] args)
     {
-      using (var context = new ConcentratorDataContext())
+      using (var context = new CNextContext())
       {
-        var configs = context.Configs.ToList();
+        var configs = context.Settings.ToList();
       }
 
     }

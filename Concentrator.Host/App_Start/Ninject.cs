@@ -1,4 +1,7 @@
 using System;
+using System.Collections;
+using System.Configuration;
+using System.Linq;
 using Ninject;
 using Ninject.Web.Common;
 using WebActivator;
@@ -45,7 +48,25 @@ namespace Concentrator.Host.App_Start
         /// </summary>
         private static void RegisterServices(IKernel kernel)
         {
-          kernel.Load(new[] { "Concentrator.BusinessLayer.dll", "Concentrator.Processes.dll", "Concentrator.Processes.*.dll" });  
+          var customer = (ConfigurationManager.AppSettings["Customer"] ?? "Customer") + ".";
+
+          var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+          var concentratorassemblies = assemblies.Where(p => p.FullName.StartsWith("Concentrator")).Select(p => p.FullName);
+          var customerassemblies = assemblies.Where(p => p.FullName.StartsWith(customer)).Select(p => p.FullName);
+          var assemblypartnames = customerassemblies.Where(p => p.IndexOf(".")> 0).Select(p => p.Substring(p.IndexOf(".")));
+          ArrayList al = new ArrayList();
+
+          foreach (var concentratorassembly in concentratorassemblies)
+          {
+            if (!assemblypartnames.Any(p => concentratorassembly.EndsWith(p)))
+            {
+              al.Add(concentratorassembly);
+            }
+          }
+          al.AddRange(customerassemblies.ToList());
+
+          kernel.Load((string[]) al.ToArray(typeof(string)));  
           
         }
     }

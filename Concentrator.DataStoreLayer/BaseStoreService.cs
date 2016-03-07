@@ -1,5 +1,6 @@
 ﻿
 using Concentrator.DataLayer;
+using Concentrator.Entities;
 using Concentrator.SharedObjects.Dtos;
 using Concentrator.SharedObjects.Interfaces;
 
@@ -7,11 +8,11 @@ namespace Concentrator.DataAccessServiceLayer
 {
   public class BaseStoreService<T> where T : BaseDto
   {
-    public BaseStoreService(ConcentratorDataContext context = null)
+    public BaseStoreService(CNextContext context = null)
     {
-      ConcentratorDataContext = context ?? new ConcentratorDataContext();
+      DataContext = context ?? new CNextContext();
     }
 
-    protected ConcentratorDataContext ConcentratorDataContext { get; set; }
+    protected CNextContext DataContext { get; set; }
   }
 }

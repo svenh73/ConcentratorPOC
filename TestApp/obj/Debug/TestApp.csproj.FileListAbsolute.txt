@@ -1,0 +1,15 @@
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\TestApp.exe.config
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\TestApp.exe
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\TestApp.pdb
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\Concentrator.DataAccessLayer.dll
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\EntityFramework.dll
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\EntityFramework.IndexingExtensions.dll
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\Concentrator.DataAccessLayer.pdb
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\EntityFramework.xml
+C:\Projecten\ConcentratorPOC\TestApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projecten\ConcentratorPOC\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Projecten\ConcentratorPOC\TestApp\obj\Debug\TestApp.exe
+C:\Projecten\ConcentratorPOC\TestApp\obj\Debug\TestApp.pdb

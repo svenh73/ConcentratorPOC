@@ -1,7 +1,0 @@
-C:\Projecten\Concentrator3\CoolInvest.Entities\bin\Debug\CoolInvest.Entities.dll
-C:\Projecten\Concentrator3\CoolInvest.Entities\bin\Debug\CoolInvest.Entities.pdb
-C:\Projecten\Concentrator3\CoolInvest.Entities\bin\Debug\Concentrator.Entities.dll
-C:\Projecten\Concentrator3\CoolInvest.Entities\bin\Debug\Concentrator.Entities.pdb
-C:\Projecten\Concentrator3\CoolInvest.Entities\obj\Debug\CoolInvest.Entities.csprojResolveAssemblyReference.cache
-C:\Projecten\Concentrator3\CoolInvest.Entities\obj\Debug\CoolInvest.Entities.dll
-C:\Projecten\Concentrator3\CoolInvest.Entities\obj\Debug\CoolInvest.Entities.pdb

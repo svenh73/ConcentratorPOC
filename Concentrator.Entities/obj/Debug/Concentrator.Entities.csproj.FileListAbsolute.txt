@@ -3,3 +3,7 @@ C:\Projecten\Concentrator3\Concentrator.Entities\bin\Debug\Concentrator.Entities
 C:\Projecten\Concentrator3\Concentrator.Entities\obj\Debug\Concentrator.Entities.dll
 C:\Projecten\Concentrator3\Concentrator.Entities\obj\Debug\Concentrator.Entities.pdb
 C:\Projecten\Concentrator3\Concentrator.Entities\obj\Debug\Concentrator.Entities.csprojResolveAssemblyReference.cache
+C:\Projecten\ConcentratorPOC\Concentrator.Entities\bin\Debug\Concentrator.Entities.dll
+C:\Projecten\ConcentratorPOC\Concentrator.Entities\bin\Debug\Concentrator.Entities.pdb
+C:\Projecten\ConcentratorPOC\Concentrator.Entities\obj\Debug\Concentrator.Entities.dll
+C:\Projecten\ConcentratorPOC\Concentrator.Entities\obj\Debug\Concentrator.Entities.pdb

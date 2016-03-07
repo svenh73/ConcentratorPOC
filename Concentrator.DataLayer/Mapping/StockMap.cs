@@ -1,26 +1,45 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using Concentrator.Entities;
 using System.Data.Entity.ModelConfiguration;
+using Concentrator.Entities;
 
-namespace Concentrator.DataLayer.Models.Mapping
+namespace Concentrator.DataAccessLayer.Mapping
 {
     public class StockMap : EntityTypeConfiguration<Stock>
     {
         public StockMap()
         {
             // Primary Key
-            this.HasKey(t => t.ProductID);
+            this.HasKey(t => new { t.Id, t.ChannelProductId, t.Quantity, t.LastModified });
 
             // Properties
-            this.Property(t => t.ProductID)
+            this.Property(t => t.Id)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+
+            this.Property(t => t.ChannelProductId)
+                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+
+            this.Property(t => t.Quantity)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
             // Table & Column Mappings
             this.ToTable("Stock");
-            this.Property(t => t.ProductID).HasColumnName("ProductID");
-            this.Property(t => t.QuantityOnHand).HasColumnName("QuantityOnHand");
-            this.Property(t => t.PromisedDeliveryDate).HasColumnName("PromisedDeliveryDate");
-            this.Property(t => t.QuantityToReceive).HasColumnName("QuantityToReceive");
+            this.Property(t => t.Id).HasColumnName("Id");
+            this.Property(t => t.VendorProductId).HasColumnName("VendorProductId");
+            this.Property(t => t.ChannelProductId).HasColumnName("ChannelProductId");
+            this.Property(t => t.Quantity).HasColumnName("Quantity");
+            this.Property(t => t.LastModified).HasColumnName("LastModified");
+
+            // Relationships
+            this.HasRequired(t => t.ChannelProduct)
+                .WithMany(t => t.Stocks)
+                .HasForeignKey(d => d.ChannelProductId);
+            this.HasRequired(t => t.StockType)
+                .WithMany(t => t.Stocks)
+                .HasForeignKey(d => d.Id);
+            this.HasOptional(t => t.VendorProduct)
+                .WithMany(t => t.Stocks)
+                .HasForeignKey(d => d.VendorProductId);
+
         }
     }
 }

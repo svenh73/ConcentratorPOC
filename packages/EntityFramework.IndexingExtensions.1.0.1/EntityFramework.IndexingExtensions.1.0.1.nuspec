@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EntityFramework.IndexingExtensions</id>
+    <version>1.0.1</version>
+    <title>Entity Framework Indexing Extensions</title>
+    <authors>Matt Johnson</authors>
+    <owners>Matt Johnson</owners>
+    <licenseUrl>https://raw.githubusercontent.com/mj1856/TimeZoneNames/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mj1856/EntityFramework.IndexingExtensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides extension methods to Entity Framework for simplified fluent configuration of indexes.</description>
+    <language>en-US</language>
+    <tags>EF Entity Framework Indexing Indexes Index</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.1.0" />
+    </dependencies>
+  </metadata>
+</package>
